@@ -66,7 +66,7 @@ def tg_help(update: tg.Update, context: tg_ext.CallbackContext):
     username = update.effective_user.username
     user = active_users.get_user(username)
 
-    user.send_message(text=ans.answers[ans.HELP][user.language])
+    user.tg_user.send_message(text=ans.answers[ans.HELP][user.language])
 
 
 dispatcher.add_handler(tg_ext.CommandHandler("help", tg_help))
