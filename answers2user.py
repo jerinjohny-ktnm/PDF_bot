@@ -18,14 +18,12 @@ answers = {
             HELP: {ENG: "This bot creates a PDF file from the photos you send to it."
                         "Take a look at the commands currently available:\n"
                         "/create_pdf - the main command that creates the PDF file\n"
-                        "/change_language - switch language\n"
-                        "/help - see bot description and available commands\n",
+                        "/change_language - switch language\n",
 
                    RUS: "Этот бот создает PDF файл из фотографий, которые вы пришлете ему."
                         "Посмотрите команды доступные на данный момент:\n"
                         "/create_pdf - главная команда, которая создает PDF файл\n"
-                        "/change_language - сменить язык\n"
-                        "/help - посмотреть описание бота и доступные команды\n",},
+                        "/change_language - сменить язык\n",},
 
             CHANGE_LANGUAGE: {ENG: "Language changed to English!\n",
                               RUS: "Язык сменен на русский!\n"},
