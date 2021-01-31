@@ -5,7 +5,7 @@ import document as doc
 import answers2user as ans
 from user import User, ListUsers
 
-TOKEN = "your_token"
+TOKEN = "1648429720:AAGu7w3Opvt-0qo4B2lB5JoQ0itcOSsPv78"
 
 updater = tg_ext.Updater(token=TOKEN, use_context=True)
 dispatcher = updater.dispatcher
