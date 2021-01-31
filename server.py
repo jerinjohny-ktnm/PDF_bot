@@ -18,7 +18,7 @@ active_users = ListUsers()
 
 def start(update: tg.Update, context: tg_ext.CallbackContext):
 
-    update.message.reply_text(f"Hello {update.effective_user.username}!")
+    update.message.reply_text(f"Hello {update.effective_user.username} Select your preferred language and Continue. Report bugs to @imjerin!")
     active_users.append(User(tg_user=update.effective_user, language=ans.ENG))
 
     choose_language(update, context)
